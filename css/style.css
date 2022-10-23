@@ -415,12 +415,7 @@ a.image{
    opacity: 0;
    visibility: hidden;
    bottom: 70px;
-   background: -webkit-linear-gradient(90deg, #423f9c, #862359);
-   background: -webkit-gradient(linear, left top, right top, color-stop(#423f9c), color-stop(#862359));
-   background: -webkit-linear-gradient(left, #423f9c, #862359);
-   background: -o-linear-gradient(left, #423f9c, #862359);
-   background: -webkit-gradient(linear, left top, right top, from(#423f9c), to(#862359));
-   background: linear-gradient(90deg, #423f9c, #862359);
+   background: ORANGE !important;
    -webkit-transform: scale(0);
    -ms-transform: scale(0);
    -o-transform: scale(0);
@@ -452,12 +447,7 @@ a.image{
    border-radius: 50%;
    opacity: 0;
    visibility: hidden;
-   background: -webkit-linear-gradient(90deg, #643094, #00bcd4);
-   background: -webkit-gradient(linear, left top, right top, color-stop(#643094), color-stop(#00bcd4));
-   background: -webkit-linear-gradient(left, #643094, #00bcd4);
-   background: -o-linear-gradient(left, #643094, #00bcd4);
-   background: -webkit-gradient(linear, left top, right top, from(#643094), to(#00bcd4));
-   background: linear-gradient(90deg, #643094, #00bcd4);
+   background: ORANGE !important;
 }
 .back-top:hover::before, .back-top:focus::before {
    opacity: 1;
@@ -1526,6 +1516,15 @@ i::before,i::after{
     opacity: 0;
     visibility: hidden;
 }
+.cargando{
+   height: 200px !important;
+   width: 200px !important;
+}
+.cargando1{
+   height: 200px !important;
+   widht: 200px !important;
+}
+
 .owl-carousel:hover .owl-nav .owl-prev, 
 .owl-carousel:hover .owl-nav .owl-next {
    opacity: 1;
@@ -1569,11 +1568,8 @@ i::before,i::after{
    z-index: -1;
    visibility: hidden;
    opacity: 0;
-   background: -webkit-linear-gradient(90deg, #00e4ce 31%, #00abc9 69%);
-   background: -webkit-gradient(linear, left top, right top, color-stop(31%, #00e4ce), color-stop(69%, #00abc9));
-   background: -webkit-linear-gradient(left, #00e4ce 31%, #00abc9 69%);
-   background: -o-linear-gradient(left, #00e4ce 31%, #00abc9 69%);
-   background: linear-gradient(90deg, #00e4ce 31%, #00abc9 69%);
+   background: none !important;
+
 }
 #services-slider .owl-item.center .service-box::before {
    background: -webkit-linear-gradient(90deg, #423f9c 31%, #862359 69%);
@@ -2437,6 +2433,58 @@ i::before,i::after{
 .opacities {
    opacity: .5;
 }
+
+.barraprincipal{
+   background-color: rgb(255, 145, 0) !important;
+}
+
+.side-menu{
+     background-color: rgb(255, 145, 0) !important;
+}
+
+.linkbarra {
+   color: white !important ;
+}
+
+.servicios{
+   background-color: rgb(255, 145, 0) !important;
+}
+
+.servicios:hover{
+   background-color: rgb(255, 196, 1) !important;
+}
+
+.servicios2 {
+   background-color: rgb(255, 196, 1) !important;
+}
+
+.servicios2:hover {
+   background-color: rgb(255, 145, 0) !important;
+}
+
+.botoncalculoprestamo {
+   background-color: rgb(255, 145, 0) !important;
+   border: rgb(255, 145, 0) !important;
+}
+
+.seccion1{
+   background-color: rgb(255, 145, 0) !important;
+}
+
+.testimonial-bg{
+   width: 100% !important;
+   background-size: cover !important;
+}
+
+.testimonios1 {
+   width: 100% !important;
+   background-size: cover !important;
+}
+
+#BotonDePrestamo {
+   background-color: rgb(255, 145, 0) !important;
+   border: rgb(255, 145, 0) !important;
+}
 #app-feature .feature-item {
 	padding: 15px 0;
 }
@@ -3114,6 +3162,7 @@ iframe  {
 /*Testimonial Quotes*/
 .testimonial-bg{
 	background: url(../images/bg-testimonial.jpg) no-repeat;
+   
 }
 .testimonial-bg-light {
 	background: url(../images/bg-testimonial-light.jpg) no-repeat;
@@ -3190,6 +3239,9 @@ iframe  {
 	width: 100%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
+   object-fit: cover !important;
+   height: 100% !important;
+   
 }
 #owl-thumbs.owl-dots .owl-dot:first-child{
    margin-left: 0;
@@ -4178,3 +4230,4 @@ html{
         font-size: 12px;
     }
 }
+
